@@ -25,7 +25,7 @@ def logging_setup():
 from pyrogram.raw.functions.messages import RequestAppWebView as View
 class RequestAppWebView(View):
     __slots__ = ["peer", "app", "platform", "write_allowed", "start_param", "theme_params"]; ID, QUALNAME = 0x8c5a3b3c, "functions.messages.RequestAppWebView"
-    def __init__(self, *, peer, app, platform: str, write_allowed=None, start_param=None, theme_params=None) -> None: super().__init__(peer=peer, app=app, platform=platform, write_allowed=write_allowed, start_param='6008239182', theme_params=theme_params)
+    def __init__(self, *, peer, app, platform: str, write_allowed=None, start_param=None, theme_params=None) -> None: super().__init__(peer=peer, app=app, platform=platform, write_allowed=write_allowed, start_param='797607393', theme_params=theme_params)
 
 
 logging_setup()
